@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Character Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-lg-12">
+            <h2>Survey</h2>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="inputName"><h4><strong>Name</strong></h4></label>
+                    <input type="Name" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="inputLink"><h4><strong>Link to Photo</strong></h4></label>
+                    <input type="photo" class="form-control" id="inputLink" placeholder="Link">
+                </div>
+            </form>
+        <br>
+            <div class="form-group">
+                <h3><strong>Question 1</strong></h3>
+                <h4>You are a very competitive person.</h4>
+                <select class="form-control" id="q1">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 2</strong></h3>
+                <h4>You read all the terms and conditions before agreeing.</h4>
+                <select class="form-control" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 3</strong></h3>
+                <h4>You go by-the-books</h4>
+                <select class="form-control" id="q3">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 4</strong></h3>
+                <h4>You rely more on your experience than your imagination.</h4>
+                <select class="form-control" id="q4">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                    <h3><strong>Question 5</strong></h3>
+                    <h4>You like to be organized.</h4>
+                    <select class="form-control" id="q5">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 6</strong></h3>
+                <h4>You rarely get carried away by fantasies and ideas.</h4>
+                <select class="form-control" id="q6">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 7</strong></h3>
+                <h4>You are an emotional person.</h4>
+                <select class="form-control" id="q7">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 8</strong></h3>
+                <h4>Halloween is your favority day.</h4>
+                <select class="form-control" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 9</strong></h3>
+                <h4>People can rarely upset you.</h4>
+                <select class="form-control" id="q9">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3><strong>Question 10</strong></h3>
+                <h4>You like spending time by yourself.</h4>
+                <select class="form-control" id="q10">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            
+            <button id="btn-submit" type="button" class="btn btn-info">Submit</button>
+            <hr>
+            <a href="/api/characters">Characters API</a>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img id="modal-gif" width="400px" height="auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    // $(".modal").hide();
+
+    $("#btn-submit").on("click", function(event){
+        event.preventDefault();
+
+        if($("input").val() === "" || $("select").val() === "") {
+            alert("Please complete all fields");
+        }
+        else {
+            var userInput = {
+                name: $("#inputName").val().trim(),
+                photo: $("#inputLink").val().trim(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            }
+            // console.log(userInput.scores);
+
+            $.post("/api/characters", userInput, function(data) {
+                if(data) {
+                    $(".modal-title").text("You got: " + data.name);
+                    $("#modal-gif").attr("src", data.photo);
+                    $(".modal").modal("show");
+                }
+            })
+        }
+    })
+
+</script>
